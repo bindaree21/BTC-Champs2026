@@ -27,12 +27,13 @@
   @media (max-width:640px) { nav .links { display:none; } }
 
   /* Hero */
-  header.hero { background:linear-gradient(160deg,var(--sky) 0%,#eaf4fc 70%); padding:48px 0 40px;
-    text-align:center; border-bottom:1px solid var(--line); }
+  header.hero { background:linear-gradient(160deg,rgba(19,41,58,.62),rgba(19,41,58,.42)),
+      url('https://images.squarespace-cdn.com/content/v1/67846163aa3d46428ce4b377/b8ee32a4-a9ab-46d8-9e41-f58acb29d6f7/Jack+Cox+Tennis+Bangalow+Court.jpg?format=750w') center/cover no-repeat;
+    padding:48px 0 40px; text-align:center; border-bottom:1px solid var(--line); }
   header.hero img { width:132px; height:132px; border-radius:50%; box-shadow:0 6px 22px rgba(19,41,58,.18); }
-  header.hero h1 { margin:18px 0 4px; font-size:34px; letter-spacing:.5px; }
-  header.hero .sub { font-size:18px; color:var(--steel); font-weight:600; }
-  header.hero .events { margin-top:6px; color:var(--muted); font-size:14px; }
+  header.hero h1 { margin:18px 0 4px; font-size:34px; letter-spacing:.5px; color:#fff; text-shadow:0 2px 10px rgba(0,0,0,.35); }
+  header.hero .sub { font-size:18px; color:#eaf4fc; font-weight:600; }
+  header.hero .events { margin-top:6px; color:rgba(255,255,255,.85); font-size:14px; }
   .slam-banner { display:inline-block; margin-top:22px; background:var(--ink); color:#fff;
     padding:12px 22px; border-radius:999px; font-weight:600; font-size:15px; }
   .slam-banner b { color:var(--sky); }
